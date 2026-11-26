@@ -1,4 +1,6 @@
-![DocLayer — Smart Content Framework powered by Nuxt](https://doclayer.dev/promo.webp)
+<div align="center">
+
+<img style="width: 100%; max-width: 940px; height: auto;" alt="DocLayer — Smart Content Framework powered by Nuxt" src="https://doclayer.dev/promo.webp" />
 
 # DocLayer Boilerplate
 
@@ -9,15 +11,15 @@
 
 **Smart Content Framework powered by [Nuxt](https://nuxt.com).**
 
-Write documentation, blogs, and static content in Markdown.
+Write documentation, blogs, and static content in Markdown. DocLayer does the rest
 
 [Documentation](https://doclayer.dev/docs) · [Changelog](https://github.com/vuehouse/doclayer/releases) · [Boilerplate](https://github.com/vuehouse/doclayer-bp) · [Discord](https://discord.gg/EemSKTJvU) · [Blog](https://doclayer.dev/blog)
+
+</div>
 
 ---
 
 Welcome! This is the [DocLayer](https://doclayer.dev) Boilerplate application / template.
-
-DocLayer is a **Smart Content Framework**: you write Markdown, it does the rest.
 
 What you can find here is a starter [Nuxt](https://nuxt.com/) app with [`@vuehouse/dl`](https://doclayer.dev/docs) preinstalled - the best approach to start building with DocLayer. Write Markdown, DocLayer handles data, layouts, navigation, components, utils, and much more. This repo **consumes** the module - it is not the [module source](https://github.com/vuehouse/doclayer). API and guides live at [doclayer.dev/docs](https://doclayer.dev/docs).
 
