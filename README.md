@@ -17,7 +17,7 @@ Write documentation, blogs, and static content in Markdown.
 
 Welcome! This is the [DocLayer](https://doclayer.dev) Boilerplate application / template.
 
-[DocLayer](https://doclayer.dev) is a Smart Content Framework: you write Markdown, it does the rest.
+DocLayer is a **Smart Content Framework**: you write Markdown, it does the rest.
 
 What you can find here is a starter [Nuxt](https://nuxt.com/) app with [`@vuehouse/dl`](https://doclayer.dev/docs) preinstalled - the best approach to start building with DocLayer. Write Markdown, DocLayer handles data, layouts, navigation, components, utils, and much more. This repo **consumes** the module - it is not the [module source](https://github.com/vuehouse/doclayer). API and guides live at [doclayer.dev/docs](https://doclayer.dev/docs).
 
@@ -69,11 +69,11 @@ For any kind of issues with this template please report them on the [DocLayer Re
 
 ## Updates
 
-To stay updated with the latest news, features, and releases, follow us on [Twitter/X](https://twitter.com/doclayerdev) or [Bluesky](https://bsky.app/profile/doclayer.dev). You can also join our [Discord](https://discord.gg/vuehouse) server to connect with other developers and get support.
+To stay updated with the latest news, features, and releases, follow us on [Twitter/X](https://twitter.com/doclayerdev) or [Bluesky](https://bsky.app/profile/doclayer.dev). You can also join our [Discord](https://discord.gg/EemSKTJvU) server to connect with other developers and get support.
 
 ## Support this project
 
-If you find this project useful, please consider supporting it. You can join the [Early Supporters Program](https://doclayer.dev/docs/project/support) which can give you many great benefits, or simply use the [GitHub Sponsors](https://github.com/sponsors/vuehouse) button. Thank you in advance for your support!
+If you find this project useful, please consider supporting it. You can join the [Early Supporters Program](https://doclayer.dev/docs/project/support) which can give you many great benefits, or simply use the [GitHub Sponsors](https://github.com/sponsors/lukasborawski) button. Thank you in advance for your support!
 
 ## License
 
