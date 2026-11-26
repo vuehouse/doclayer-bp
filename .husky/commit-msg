@@ -1,0 +1,2 @@
+# run commit lint
+pnpm commitlint --edit "$1" || { echo "Commit message lint failed. Please fix your commit message."; exit 1; }

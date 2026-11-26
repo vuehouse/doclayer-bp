@@ -1,0 +1,24 @@
+/* Import DocLayer predefined styles */
+@import '@vuehouse/dl/styles/main.css';
+
+/* Source all of the DocLayer's utility classes */
+@source '../../node_modules/@vuehouse/dl';
+@source '../../node_modules/@vuehouse/dl-ai-kit/dist/runtime/components';
+/* Source all of the utility classes used within the content files */
+@source '../../content/';
+/* Source all of the utility classes used within the app files */
+@source '../../app/';
+
+@theme {
+  --my-custom-color: #000;
+  --app-overwritten-var: #000;
+
+  /* 
+  Uncomment this code to change the theme appearance.
+  
+  --app-color-rgb-01: 105 59 152;
+  --app-color-rgb-02: 180 141 205;
+  --app-color-rgb-03: 180 141 205;
+  --app-color-rgb-04: 107 40 134; 
+  */
+}

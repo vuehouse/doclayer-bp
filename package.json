@@ -1,0 +1,61 @@
+{
+  "name": "@vuehouse/dl-bp",
+  "description": "DocLayer (doclayer.dev) Boilerplate Application",
+  "author": "vue.house",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "nuxt",
+    "doclayer",
+    "boilerplate",
+    "vuehouse",
+    "typescript"
+  ],
+  "type": "module",
+  "scripts": {
+    "husky": "husky || true",
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "nuxt prepare && pnpm husky",
+    "prepare": "nuxt prepare",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "node .output/server/index.mjs",
+    "cleanup": "nuxt cleanup && rm -rf node_modules",
+    "cleanup:deep": "pnpm store prune && nuxt cleanup && rm -rf node_modules",
+    "lint:eslint": "eslint . --fix",
+    "lint:typecheck": "vue-tsc --noEmit -p .nuxt/tsconfig.json",
+    "lint:markdown": "markdownlint --config .markdownlint.json --rules @vuehouse/dl-mdl-rules/rules \"content/**/*.md\"",
+    "lint": "pnpm lint:eslint && pnpm lint:typecheck && pnpm lint:markdown"
+  },
+  "dependencies": {
+    "@nuxt/content": "catalog:nuxt",
+    "@vuehouse/dl": "catalog:vuehouse",
+    "@vuehouse/dl-mdl-rules": "catalog:vuehouse",
+    "nuxt": "catalog:nuxt"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "catalog:global",
+    "@commitlint/config-conventional": "catalog:global",
+    "@iconify-json/lucide": "catalog:global",
+    "@iconify-json/vscode-icons": "catalog:global",
+    "@iconify-json/bi": "catalog:global",
+    "@vuehouse/eslint-config": "catalog:vuehouse",
+    "husky": "catalog:global",
+    "markdownlint-cli": "catalog:global",
+    "typescript": "catalog:global",
+    "vue-tsc": "catalog:global"
+  },
+  "homepage": "https://github.com/vuehouse/doclayer-bp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuehouse/doclayer-bp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuehouse/doclayer/issues"
+  },
+  "packageManager": "pnpm@11.29.0",
+  "engines": {
+    "node": "^20.22.3 || ^22.22.0",
+    "pnpm": "^11.29.0"
+  }
+}

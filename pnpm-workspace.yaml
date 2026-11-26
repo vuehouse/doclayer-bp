@@ -1,0 +1,51 @@
+verifyDepsBeforeRun: warn
+
+catalogs:
+  global:
+    '@commitlint/cli': ^19.8
+    '@commitlint/config-conventional': ^19.8
+    '@iconify-json/lucide': ^1.2
+    '@iconify-json/vscode-icons': ^1.2
+    '@iconify-json/bi': ^1.2
+    husky: ^9.1.7
+    'markdownlint-cli': ^0.50
+    'typescript': ^5.9
+    'vue-tsc': ^3.2
+  nuxt:
+    '@nuxt/content': ~3.16.2
+    nuxt: ~4.6.0
+  vuehouse:
+    '@vuehouse/dl': ^0.1.0
+    '@vuehouse/dl-mdl-rules': ^0.1.0
+    '@vuehouse/dl-search': ^0.1.0
+    '@vuehouse/eslint-config': ^0.1.0
+
+overrides:
+  'nuxt-component-meta': ^0.19
+  # pnpm resolves @comark/markdown-it's peer (markdown-it ^14) to 15 on its own.
+  # Pin that peer to the 14.x release that still exports ./lib/token.mjs. Verify later.
+  '@comark/markdown-it>markdown-it': 14.3.3
+  # ipx wants ^0.32.6 (<0.33) while @huggingface/transformers wants ^0.34.1.
+  # Two copies load two libvips dylibs and warn about GNotificationCenterDelegate.
+  sharp: 0.34.5
+  '@nuxt/image': ^2.2
+
+minimumReleaseAgeExclude:
+  - '@vuehouse/dl-ai-kit@0.1.0'
+  - '@vuehouse/dl-core@0.1.0'
+  - '@vuehouse/dl@0.1.0'
+  - '@vuehouse/dl-search@0.1.0'
+
+allowBuilds:
+  better-sqlite3: true
+  esbuild: true
+  onnxruntime-node: true
+  protobufjs: true
+  sharp: true
+  vue-demi: true
+
+# use it for old pnpm versions (^10), instead of allowBuilds
+# onlyBuiltDependencies:
+#   - better-sqlite3
+#   - vue-demi
+#   - sharp

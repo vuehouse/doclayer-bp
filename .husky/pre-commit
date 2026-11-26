@@ -1,0 +1,3 @@
+# run lints before commit
+git add -A && pnpm lint || { echo "Pre-commit failed. Please fix the errors above."; exit 1; }
+

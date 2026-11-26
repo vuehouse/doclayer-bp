@@ -1,0 +1,53 @@
+# ==========================================
+# Crawler access (shared policy)
+# ==========================================
+
+User-agent: *
+
+# OpenAI
+User-agent: OAI-SearchBot
+User-agent: GPTBot
+User-agent: ChatGPT-User
+
+# Anthropic / Claude
+User-agent: Claude-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+
+# Perplexity
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+
+# Google / Gemini
+User-agent: Googlebot
+User-agent: Google-Extended
+
+# Microsoft / Copilot
+User-agent: Bingbot
+
+# Apple
+User-agent: Applebot
+User-agent: Applebot-Extended
+
+# Meta
+User-agent: meta-externalagent
+
+# Common Crawl
+User-agent: CCBot
+
+Allow: /
+Disallow: /api/
+Disallow: /_ipx/
+Disallow: /_fonts/
+Disallow: /_content/
+Disallow: /__nuxt_content/
+Disallow: /nuxt/
+Disallow: /_nuxt/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /~/
+Disallow: /~cache/
+Disallow: /~logs/
+Disallow: /~error/
+
+Sitemap: https://doclayer.dev/sitemap.xml

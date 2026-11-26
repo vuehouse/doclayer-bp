@@ -1,0 +1,1 @@
+For blocks you repeat across pages, put Markdown in `content/_shared/` and render with :dl-link[$dl-docs]{label="`:dl-renderer`" path="/components/renderer"}. In fact, **this paragraph is a shared component** - injected into this page - that can be used in other pages as well.
