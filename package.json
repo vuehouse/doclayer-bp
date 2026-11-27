@@ -23,7 +23,7 @@
     "cleanup": "nuxt cleanup && rm -rf node_modules",
     "cleanup:deep": "pnpm store prune && nuxt cleanup && rm -rf node_modules",
     "lint:eslint": "eslint . --fix",
-    "lint:typecheck": "vue-tsc --noEmit -p .nuxt/tsconfig.json",
+    "lint:typecheck": "vue-tsc --noEmit -p .nuxt/tsconfig.app.json",
     "lint:markdown": "markdownlint --config .markdownlint.json --rules @vuehouse/dl-mdl-rules/rules \"content/**/*.md\"",
     "lint": "pnpm lint:eslint && pnpm lint:typecheck && pnpm lint:markdown"
   },
