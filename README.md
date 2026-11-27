@@ -6,7 +6,7 @@
 
 ![npm version](https://img.shields.io/npm/v/@vuehouse/dl?style=flat-round)
 ![NPM Downloads](https://img.shields.io/npm/dm/@vuehouse/dl?style=flat-round)
-![GitHub License](https://img.shields.io/github/license/vuehouse/doclaye?style=flat-round)
+![GitHub License](https://img.shields.io/github/license/vuehouse/doclayer?style=flat-round)
 ![Discord](https://img.shields.io/discord/1547187121180246046?style=flat-round)
 
 **Smart Content Framework powered by [Nuxt](https://nuxt.com).**
