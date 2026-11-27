@@ -29,6 +29,7 @@ overrides:
   # Two copies load two libvips dylibs and warn about GNotificationCenterDelegate.
   sharp: 0.34.5
   '@nuxt/image': ^2.2
+  'vue-router': ^5.5.3
 
 minimumReleaseAgeExclude:
   - '@vuehouse/dl-ai-kit@0.1.0'
